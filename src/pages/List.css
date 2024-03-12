@@ -1,0 +1,14 @@
+ion-item:hover {
+  --background: #69ffc0;
+  --color: var(--ion-color-primary);
+}
+
+ion-item {
+  --padding-start: 20px;
+}
+
+/* https://ionicframework.com/docs/api/item#css-shadow-parts */
+ion-item::part(detail-icon) {
+  color: blueviolet;
+  opacity: 1;
+}
